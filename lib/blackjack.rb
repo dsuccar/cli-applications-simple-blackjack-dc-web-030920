@@ -33,6 +33,7 @@ end
 
 def hit?(card_total)
   valid_inputs = ["h","s"]
+  binding.pry
   prompt_user
   user_input = get_user_input
   if user_input == "s"
